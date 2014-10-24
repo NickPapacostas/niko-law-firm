@@ -3,81 +3,56 @@ layout: default
 ---
 
 		<!-- Highlights -->
-			<section class="wrapper style1">
+<!-- 			<section class="wrapper style1">
 				<div class="container">
 					<div class="row double">
 						<section class="12u">
 							<div class="box highlight">
-								<h3 id="about">{% t header.about %}</h3>
 								<i class="icon fa-pencil"></i>
+								<h3 id="about">{% t header.about %}</h3>
 								<p>{% t page.about %}</p>
 						</section>
 					</div>
 				</div>
+			</section> -->
+
+			<!-- Highlights -->
+			<section class="wrapper style1">
+				<div class="container">
+					<h2 id="about">{% t header.about %}</h3>
+					<div class="row double">
+						<section class="4u">
+							<div class="box highlight">
+								<i class="icon major fa-graduation-cap"></i>
+								<h3>Professionalism</h3>
+								<p>{% t page.about.professionalism %}</p>
+							</div>
+						</section>
+						<section class="4u">
+							<div class="box highlight">
+								<i class="icon major fa-book"></i>
+								<h3>History</h3>
+								<p>{% t page.about.history %}</p>
+							</div>
+						</section>
+						<section class="4u">
+							<div class="box highlight">
+								<i class="icon major fa-wrench"></i>
+								<h3>Pragmatism</h3>
+								<p>{% t page.about.pragmatism %}</p>
+							</div>
+						</section>
+					</div>
+				</div>
 			</section>
+
 
 		<!-- Gigantic Heading -->
 			<section class="wrapper style2">
 				<div class="container">
-					<header class="major">
-						<h2>A gigantic heading you can use for whatever</h2>
-						<p>With a much smaller subtitle hanging out just below it</p>
-					</header>
-				</div>
-			</section>
-
-		<!-- Posts -->
-			<section class="wrapper style1">
-				<div class="container">
-					<div class="row">
-						<section class="6u">
-							<div class="box post">
-								<a href="#" class="image left"><img src="images/pic01.jpg" alt="" /></a>
-								<div class="inner">
-									<h3>The First Thing</h3>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-								</div>
-							</div>
-						</section>
-						<section class="6u">
-							<div class="box post">
-								<a href="#" class="image left"><img src="images/pic02.jpg" alt="" /></a>
-								<div class="inner">
-									<h3>The Second Thing</h3>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-								</div>
-							</div>
-						</section>
-					</div>
-					<div class="row">
-						<section class="6u">
-							<div class="box post">
-								<a href="#" class="image left"><img src="images/pic03.jpg" alt="" /></a>
-								<div class="inner">
-									<h3>The Third Thing</h3>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-								</div>
-							</div>
-						</section>
-						<section class="6u">
-							<div class="box post">
-								<a href="#" class="image left"><img src="images/pic04.jpg" alt="" /></a>
-								<div class="inner">
-									<h3>The Fourth Thing</h3>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-								</div>
-							</div>
-						</section>
-					</div>
-				</div>
-			</section>
-			
-		<!-- CTA -->
-			<section id="cta" class="wrapper style3">
-				<div class="container">
-					<header>
-						<h2>Are you ready to continue your quest?</h2>
-						<a href="#" class="button">Insert Coin</a>
+					<header class="major" id='practice'>
+						<h2> {% t header.practice %} </h2>
+						<p> Stuff about your practice.... </p>
 					</header>
 				</div>
 			</section>
@@ -112,14 +87,7 @@ layout: default
 							</form>
 						</section>
 				<section class="6u">
-				<!-- Icons -->
-					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-					</ul>
+					<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:500px;width:600px;"><div id="gmap_canvas" style="height:500px;width:600px;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.trivoo.net/google-maps/" id="get-map-data">blog link</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(37.984167,23.727777999999944),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(37.984167, 23.727777999999944)});infowindow = new google.maps.InfoWindow({content:"<b>Papakostas and Partners</b><br/>Omonia Square <br/> Athens " });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 					
 				</section>
 

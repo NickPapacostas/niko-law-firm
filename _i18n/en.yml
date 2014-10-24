@@ -5,11 +5,13 @@ global:
   tagline: "the freshest law firm ya'hurd?"
 
 header:
-  home: Home
   about: About
   practice: Practice
   contact: Contact
 
 page: 
-  about: "At our firm. we are committed to serving our clients throughout Greece with a high level of professionalism and integrity. Our firm of 6 attorneys, each with over 15 years of legal experience, cosisting of two senior attorneys each with over 40 years of legal experience, enables us to confidently handle a variety of complex legal matters. Our attorneys provide a conservative, all encompassing evaluation of each case. We attempt to resolve matters out of court before bringing suit, and recommend against pursuing a claim where no recovery appears likely. Established in 1975, our law firm has a rich history of providing positive results for our clients."
+  about: 
+    professionalism: "At our firm,  we are committed to serving our clients throughout Greece with a high level of professionalism and integrity. Our firm of 6 attorneys, each with over 15 years of legal experience, cosisting of two senior attorneys each with over 40 years of legal experience, enables us to confidently handle a variety of complex legal matters."
+    pragmatism: "Our attorneys provide a conservative, all encompassing evaluation of each case. We attempt to resolve matters out of court before bringing suit, and recommend against pursuing a claim where no recovery appears likely."
+    history: "Established in 1975, our law firm has a rich history of providing positive results for our clients."
   practice: "This is all the stuff about the law firm OMG"

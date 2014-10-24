@@ -6,11 +6,13 @@ global:
 
 
 header:
-  home: home
-  about: aboutdat
-  practice: τομείς
-  contact: contactor
+  about: Προφίλ
+  practice: Τομείς
+  contact: Επικοινωνία
 
 page: 
-  about: alllldat
+  about: 
+    professionalism: asdfasdfa
+    pragmatism: asldkfja
+    history: asdfas
   practice: praacticetar

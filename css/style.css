@@ -572,10 +572,10 @@
 		#header h1 {
 			padding: 0 0 2.75em 0;
 			margin: 0;
+			font-size: 1.5em;
 		}
 
 			#header h1 a {
-				font-size: 1.5em;
 				letter-spacing: -0.025em;
 				border: 0;
 			}
@@ -710,7 +710,7 @@
 		background-image: url("../images/banner.jpg");
 		background-position: center center;
 		background-size: cover;
-		height: 14em;
+		height: 20em;
 		text-align: center;
 		position: relative;
 	}
@@ -787,6 +787,11 @@
 					color: #37c0fb !important;
 				}
 
+#about {
+	text-align: center;
+	font-size: 2em;
+}
+
 /* CTA */
 
 	#cta {
@@ -827,7 +832,6 @@
 
 		#footer .icons {
 			text-align: center;
-			padding-top: 10em;
 			margin: 0;
 		}
 
