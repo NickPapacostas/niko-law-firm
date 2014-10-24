@@ -1,6 +1,16 @@
 global: 
-  english: Αγγλικά
+  english: English
   greek: Ελληνικά
+  header: "Papakostas & Partners"
+  tagline: "τα πιο φρέσκα δικηγορικό γραφείο"
 
-page:
-  practice: 'bukka!'
+
+header:
+  home: home
+  about: aboutdat
+  practice: τομείς
+  contact: contactor
+
+page: 
+  about: alllldat
+  practice: praacticetar

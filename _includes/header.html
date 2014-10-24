@@ -1,24 +1,26 @@
     <!-- Header -->
     <div id="header">
-    {% if site.lang == "el" %}
-      {% capture link1 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
-    <div align="right">
-      <a href="{{ link1 }}" >{% t global.english %}</a>
-    </div>  
-    {% else if site.lang == "en" %}
-      {% capture link2 %}{{ site.baseurl_root }}/el{{ page.url}}{% endcapture %}
-      <div align="right">
-        <a href="{{ link2 }}" >{% t global.greek %}</a>
-      </div>  
-    {% endif %}
       <!-- Logo -->
-      <h1><a href="index.html" id="logo">Arcana <em>by HTML5 UP</em></a></h1>
+      <h1>{% t global.header %}: <em> {% t global.tagline %} </em></h1>
       
+      <section id="i18n">
+        {% if site.lang == "el" %}
+        {% capture link1 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
+        <div align="right">
+          <a href="{{ link1 }}" >{% t global.english %}</a>
+        </div>  
+        {% else if site.lang == "en" %}
+        {% capture link2 %}{{ site.baseurl_root }}/el{{ page.url}}{% endcapture %}
+        <div align="right">
+          <a href="{{ link2 }}" >{% t global.greek %}</a>
+        </div>  
+        {% endif %}
+      </section>  
       <!-- Nav -->
       <nav id="nav">
         <ul>
           <li class="current"><a href="index.html">Home</a></li>
-          <li>
+<!--           <li>
             <a href="">Dropdown</a>
             <ul>
               <li><a href="#">Lorem dolor</a></li>
@@ -37,19 +39,18 @@
               <li><a href="#">Veroeros feugiat</a></li>
             </ul>
           </li>
-          <li><a href="left-sidebar.html">Left Sidebar</a></li>
-          <li><a href="right-sidebar.html">Right Sidebar</a></li>
-          <li><a href="two-sidebar.html">Two Sidebar</a></li>
-          <li><a href="no-sidebar.html">No Sidebar</a></li>
-        </ul>
-      </nav>
+        -->
+        <li><a href="#about">{% t header.about %}</a></li>
+        <li><a href="#practice">{% t header.practice %}</a></li>
+        <li><a href="#contact">{% t header.contact %}</a></li>
+      </ul>
+    </nav>
 
-    </div>
+  </div>
 
-    <!-- Banner -->
-    <section id="banner">
-      <header>
-        <h2>Arcana: <em>A responsive site template freebie by <a href="http://html5up.net">HTML5 UP</a></em></h2>
-        <a href="#" class="button">Learn More</a>
-      </header>
-    </section>
+  <!-- Banner -->
+  <section id="banner">
+    <header>
+      <h2>{% t global.header %}: <em> Freshest Law firm roun' </em></h2>
+    </header>
+  </section>

@@ -6,26 +6,11 @@ layout: default
 			<section class="wrapper style1">
 				<div class="container">
 					<div class="row double">
-						<section class="4u">
+						<section class="12u">
 							<div class="box highlight">
-								<i class="1icon major fa-paper-plane"></i>
-								<h3>{%t page.practice %}</h3>
-								<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-							</div>
-						</section>
-						<section class="4u">
-							<div class="box highlight">
-								<i class="icon major fa-pencil"></i>
-								<h3>Also Important</h3>
-								<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-							</div>
-						</section>
-						<section class="4u">
-							<div class="box highlight">
-								<i class="icon major fa-wrench"></i>
-								<h3>Probably Important</h3>
-								<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-							</div>
+								<h3 id="about">{% t header.about %}</h3>
+								<i class="icon fa-pencil"></i>
+								<p>{% t page.about %}</p>
 						</section>
 					</div>
 				</div>
@@ -101,37 +86,9 @@ layout: default
 			<div id="footer">
 				<div class="container">
 					<div class="row ">
-						<div class="6u">
-							<div class="row collapse-at-2">
-								<section class="6u">
-									<h3>Links to Stuff</h3>
-									<ul class="links">
-										<li><a href="#">Mattis et quis rutrum</a></li>
-										<li><a href="#">Suspendisse amet varius</a></li>
-										<li><a href="#">Sed et dapibus quis</a></li>
-										<li><a href="#">Rutrum accumsan dolor</a></li>
-										<li><a href="#">Mattis rutrum accumsan</a></li>
-										<li><a href="#">Suspendisse varius nibh</a></li>
-										<li><a href="#">Sed et dapibus mattis</a></li>
-									</ul>
-								</section>
-								<section class="6u">
-									<h3>More Links to Stuff</h3>
-									<ul class="links">
-										<li><a href="#">Duis neque nisi dapibus</a></li>
-										<li><a href="#">Sed et dapibus quis</a></li>
-										<li><a href="#">Rutrum accumsan sed</a></li>
-										<li><a href="#">Mattis et sed accumsan</a></li>
-										<li><a href="#">Duis neque nisi sed</a></li>
-										<li><a href="#">Sed et dapibus quis</a></li>
-										<li><a href="#">Rutrum amet varius</a></li>
-									</ul>
-								</section>
-							</div>
-						</div>
-						<section class="6u">
+						<section class="6u" id="contact">
 							<h3>Get In Touch</h3>
-							<form>
+							<form action="http://getsimpleform.com/messages?form_api_token=a1df72acb21cceec43221cbfb99bed31" method="post">
 								<div class="row half collapse-at-2">
 									<div class="6u">
 										<input type="text" name="name" id="name" placeholder="Name" />
@@ -154,9 +111,7 @@ layout: default
 								</div>
 							</form>
 						</section>
-					</div>
-				</div>
-
+				<section class="6u">
 				<!-- Icons -->
 					<ul class="icons">
 						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
@@ -165,6 +120,11 @@ layout: default
 						<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
 						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
 					</ul>
+					
+				</section>
+
+					</div>
+				</div>
 
 				<!-- Copyright -->
 					<div class="copyright">

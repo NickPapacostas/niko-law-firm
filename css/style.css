@@ -579,6 +579,11 @@
 				letter-spacing: -0.025em;
 				border: 0;
 			}
+		#header #i18n {
+			float: right;
+			padding-top: 2em;
+			padding-right: 1em;
+		}
 
 	#nav {
 		cursor: default;
@@ -705,7 +710,7 @@
 		background-image: url("../images/banner.jpg");
 		background-position: center center;
 		background-size: cover;
-		height: 28em;
+		height: 14em;
 		text-align: center;
 		position: relative;
 	}
@@ -822,6 +827,7 @@
 
 		#footer .icons {
 			text-align: center;
+			padding-top: 10em;
 			margin: 0;
 		}
 
